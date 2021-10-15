@@ -23,4 +23,3 @@ curl -fsSL https://pkgs.tailscale.com/stable/debian/bullseye.list | tee /etc/apt
 
 apt-get update
 apt-get install -y tailscale
-tailscale up
